@@ -8,9 +8,9 @@ class Button extends React.Component {
   }
 
   render() {
-    const { sym, className } = this.props;
+    const { sym, className, clickHandler } = this.props;
     return (
-      <button type="button" className={className}>{sym}</button>
+      <button type="button" className={className} onClick={clickHandler}>{sym}</button>
     );
   }
 }
@@ -18,6 +18,7 @@ class Button extends React.Component {
 Button.propTypes = {
   sym: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default Button;
