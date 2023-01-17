@@ -21,11 +21,11 @@ const randomQuote = () => {
 const Quote = () => {
   const [quote, setQuote] = useState(randomQuote);
   return (
-    <div>
-      <p>{quote}</p>
-      <button type="submit" onClick={() => setQuote(randomQuote)}>
+    <div className="page-container">
+      <button className="new-quote" type="submit" onClick={() => setQuote(randomQuote)}>
         Random Quote
       </button>
+      <p className="quote">{quote}</p>
     </div>
   );
 };
