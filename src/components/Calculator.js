@@ -21,34 +21,37 @@ const Calculator = ({ total: initialTotal, next: initialNext, operation: initial
   };
 
   return (
-    <article className="calculator-grid">
-      <div className="output">
-        <div className="current-operand">
-          {total}
-          {operation}
-          {next}
+    <div className="calculator-container">
+      <h2 className="calculator-title">Lets do some math!</h2>
+      <article className="calculator-grid">
+        <div className="output">
+          <div className="current-operand">
+            {total}
+            {operation}
+            {next}
+          </div>
         </div>
-      </div>
-      <Button sym="AC" className="btn" clickHandler={handleClick} />
-      <Button sym="+/-" className="btn" clickHandler={handleClick} />
-      <Button sym="%" className="btn" clickHandler={handleClick} />
-      <Button sym="÷" className="btn btn--orange" clickHandler={handleClick} />
-      <Button sym="7" className="btn" clickHandler={handleClick} />
-      <Button sym="8" className="btn" clickHandler={handleClick} />
-      <Button sym="9" className="btn" clickHandler={handleClick} />
-      <Button sym="x" className="btn btn--orange" clickHandler={handleClick} />
-      <Button sym="4" className="btn" clickHandler={handleClick} />
-      <Button sym="5" className="btn" clickHandler={handleClick} />
-      <Button sym="6" className="btn" clickHandler={handleClick} />
-      <Button sym="-" className="btn btn--orange" clickHandler={handleClick} />
-      <Button sym="1" className="btn" clickHandler={handleClick} />
-      <Button sym="2" className="btn" clickHandler={handleClick} />
-      <Button sym="3" className="btn" clickHandler={handleClick} />
-      <Button sym="+" className="btn btn--orange" clickHandler={handleClick} />
-      <Button sym="0" className="btn span-two" clickHandler={handleClick} />
-      <Button sym="." className="btn" clickHandler={handleClick} />
-      <Button sym="=" className="btn btn--orange" clickHandler={handleClick} />
-    </article>
+        <Button sym="AC" className="btn" clickHandler={handleClick} />
+        <Button sym="+/-" className="btn" clickHandler={handleClick} />
+        <Button sym="%" className="btn" clickHandler={handleClick} />
+        <Button sym="÷" className="btn btn--orange" clickHandler={handleClick} />
+        <Button sym="7" className="btn" clickHandler={handleClick} />
+        <Button sym="8" className="btn" clickHandler={handleClick} />
+        <Button sym="9" className="btn" clickHandler={handleClick} />
+        <Button sym="x" className="btn btn--orange" clickHandler={handleClick} />
+        <Button sym="4" className="btn" clickHandler={handleClick} />
+        <Button sym="5" className="btn" clickHandler={handleClick} />
+        <Button sym="6" className="btn" clickHandler={handleClick} />
+        <Button sym="-" className="btn btn--orange" clickHandler={handleClick} />
+        <Button sym="1" className="btn" clickHandler={handleClick} />
+        <Button sym="2" className="btn" clickHandler={handleClick} />
+        <Button sym="3" className="btn" clickHandler={handleClick} />
+        <Button sym="+" className="btn btn--orange" clickHandler={handleClick} />
+        <Button sym="0" className="btn span-two" clickHandler={handleClick} />
+        <Button sym="." className="btn" clickHandler={handleClick} />
+        <Button sym="=" className="btn btn--orange" clickHandler={handleClick} />
+      </article>
+    </div>
   );
 };
 
