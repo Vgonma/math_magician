@@ -38,3 +38,22 @@ describe('Operational functionality of the calculator', () => {
     expect(operate(two, 0, '%')).toBe("Can't find modulo as can't divide by 0.");
   });
 });
+
+describe('Incorrect operands', () => {
+  test('Operand not known', () => {
+    const operation = '/';
+    try {
+      operate(one, two, operation);
+    } catch (e) {
+      expect(e.message).toBe(`Unknown operation '${operation}'`);
+    }
+  });
+  test('Operand not known', () => {
+    const operation = '';
+    try {
+      operate(one, two, operation);
+    } catch (e) {
+      expect(e.message).toBe(`Unknown operation '${operation}'`);
+    }
+  });
+});
