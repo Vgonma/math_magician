@@ -10,7 +10,6 @@ import Button from '../components/Button';
 import Calculator from '../components/Calculator';
 import Home from '../pages/Home';
 import App from '../App';
-import Quote from '../pages/Quote';
 
 describe('Components render correctly', () => {
   it('Navbar component', () => {
