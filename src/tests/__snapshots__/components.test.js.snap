@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components render correctly Button component 1`] = `
+<button
+  className="btn"
+  onClick={[Function]}
+  type="button"
+>
+  AC
+</button>
+`;
+
+exports[`Components render correctly Calculator component Snapshot 1`] = `
+<div
+  className="calculator-container"
+>
+  <h2
+    className="calculator-title"
+  >
+    Lets do some math!
+  </h2>
+  <article
+    className="calculator-grid"
+  >
+    <div
+      className="output"
+    >
+      <div
+        className="current-operand"
+      />
+    </div>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="btn btn--orange"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="btn btn--orange"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="btn btn--orange"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="btn btn--orange"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="btn span-two"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="btn btn--orange"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </article>
+</div>
+`;
+
+exports[`Components render correctly Home component Snapshot 1`] = `
+<div
+  className="page-container"
+>
+  <h1>
+    Welcome to our page!
+  </h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor massa id neque aliquam vestibulum morbi. Nullam non nisi est sit amet facilisis. Nunc faucibus a pellentesque sit amet porttitor eget. Turpis nunc eget lorem dolor sed. Metus vulputate eu scelerisque felis imperdiet proin. Id diam vel quam elementum pulvinar etiam non quam. Fermentum iaculis eu non diam phasellus vestibulum. Mattis pellentesque id nibh tortor id. Tristique nulla aliquet enim tortor at auctor urna. Blandit aliquam etiam erat velit scelerisque in dictum non. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium.
+  </p>
+  <p>
+    At augue eget arcu dictum. Vitae et leo duis ut diam quam nulla porttitor massa. Malesuada pellentesque elit eget gravida cum sociis natoque. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Eu scelerisque felis imperdiet proin. Ultrices mi tempus imperdiet nulla. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Donec enim diam vulputate ut pharetra sit amet aliquam. Dignissim sodales ut eu sem integer vitae. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Dictum varius duis at consectetur. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Scelerisque felis imperdiet proin fermentum. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Nam aliquam sem et tortor consequat id porta. Tellus pellentesque eu tincidunt tortor aliquam nulla.
+  </p>
+</div>
+`;
+
+exports[`Components render correctly Navbar component 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="page-title"
+  >
+    <h1>
+      Home
+    </h1>
+  </div>
+  <div
+    className="navlinks-container"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className=""
+      href="/calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <a
+      className=""
+      href="/quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </div>
+</nav>
+`;
