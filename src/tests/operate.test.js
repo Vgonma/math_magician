@@ -48,6 +48,7 @@ describe('Incorrect operands', () => {
       expect(e.message).toBe(`Unknown operation '${operation}'`);
     }
   });
+
   test('Operand not known', () => {
     const operation = '';
     try {

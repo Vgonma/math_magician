@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components render correctly Button component 1`] = `
+<button
+  className="btn"
+  onClick={[Function]}
+  type="button"
+>
+  AC
+</button>
+`;
+
+exports[`Components render correctly Navbar component 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="page-title"
+  >
+    <h1>
+      Home
+    </h1>
+  </div>
+  <div
+    className="navlinks-container"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className=""
+      href="/calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <a
+      className=""
+      href="/quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </div>
+</nav>
+`;
