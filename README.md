@@ -71,7 +71,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://vgonma.github.io/math-magician/dist)
+- [Live Demo Link](https://math-magician-pi3w.onrender.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
